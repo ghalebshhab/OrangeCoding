@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task-4</title>
+</head>
+<body>
+    <h1>Fill Your Information</h1>
+    <form action="submit.php" method="post">
+        <label for="name">First Name:</label><br>
+        <input type="text" id="name" name="name" required><br>
+
+        <label for="name">Last Name:</label><br>
+        <input type="text" id="name" name="name" required><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br>
+        <br>
+
+        <label for="Gender"><h3 style="display: inline;">Your Gender:</h3></label><br><br>
+        <input type="radio" id="gender" name="gender" value="male" required>
+        <label for="gender">Male</label>
+        <input type="radio" id="gender" name="gender" value="female" required>
+        <label for="gender">Female</label><br>
+        <br>
+         <label for="Subjects"><h3 style="display: inline;">Favorite Subjects :</h3></label><br><br>
+        <input type="checkbox" id="subject1" name="subject1" value="Java">
+        <label for="subject1">Java</label>
+        <input type="checkbox" id="subject2" name="subject2" value="Python">
+        <label for="subject2">Python</label>
+        <input type="checkbox" id="subject3" name="subject3" value="C++">
+        <label for="subject3">C++</label>
+        <input type="checkbox" id="subject4" name="subject4" value="JavaScript">
+        <label for="subject4">JavaScript</label>
+        <input type="checkbox" id="subject5" name="subject5" value="SQL">
+        <label for="subject5">SQL</label><br>
+        <br>
+         <label for="Cities"><h3 style="display: inline;">Your City :</h3></label><br><br>
+        <select id="City" name="City" required>
+            <option value="">Select a City</option>
+            <option value="Amman">Amman</option>
+            <option value="Zarqa">Zarqa</option>
+            <option value="Jarash">Jarash</option>
+            <option value="Irbid">Irbid</option>
+            <option value="Ajloun">Ajloun</option>
+        </select><br>
+        <br>
+         <label for="Image"><h3 style="display: inline;">Upload An Image :</h3></label>
+        <input type="file" id="image" name="image" accept="image/*" required><br>
+        <br><br>
+        <label for="Text"><h3 style="display: inline;">Write About Yourself :</h3></label><br><br>
+        <textarea id="text" name="text" rows="4" cols="50" placeholder="Write about yourself here..." required></textarea><br>
+        <br>
+        
+        
+
+
+        <input type="submit" value="Submit">
+</body>
+</html>
